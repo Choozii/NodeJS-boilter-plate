@@ -13,4 +13,7 @@
   
 - client
   - 회원가입, 로그인 페이지 구현 예정
-  - react library 
+  - 사용 package
+    1. react/redux/router-dom library
+    2. redux-promsie/redux-thunk
+    3. http-proxy-middleware
