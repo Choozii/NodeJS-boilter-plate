@@ -1,11 +1,13 @@
 import React from 'react'
 
-export function Loginpage(props) {
+function Loginpage(props) {
     
 
     return (
         <>
-            
+            login page
         </>
     )
 }
+
+export default Loginpage;

@@ -1,11 +1,13 @@
 import React from 'react'
 
-export function Registerpage(props) {
+function Registerpage(props) {
     
 
     return (
         <>
-            
+            register~~
         </>
     )
 }
+
+export default Registerpage;

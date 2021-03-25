@@ -1,6 +1,5 @@
 const express = require('express');
 const app = express();
-const port = 5000;
 const mongoose = require('mongoose');
 const { User } = require('./models/User');
 const { auth } = require('./middleware/auth');
@@ -93,7 +92,7 @@ app.get('/api/users/logout',auth, (req, res) => {
 })
 
 
-
+const port = 5000;
 
 app.listen(port, () => {
   console.log(`http://localhost:${port}`)

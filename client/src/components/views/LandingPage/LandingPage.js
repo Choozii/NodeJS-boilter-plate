@@ -1,11 +1,13 @@
 import React from 'react'
 
-export function Landingpage(props) {
+function Landingpage(props) {
     
 
     return (
         <>
-            
+            landing page
         </>
     )
 }
+
+export default Landingpage;
